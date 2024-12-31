@@ -31,6 +31,8 @@
       navigateTo(menuName) {
         this.$router.push({ name: 'default', params: { menuName } });
       },
+
+
       navigateToAIShortform(event) {
         event.stopPropagation(); // 아코디언이 닫히는 것을 방지
         this.$router.push({ name: 'AIShortform' });
@@ -38,23 +40,3 @@
     },
   };
   </script>
-  
-  <style>
-  .sidebar {
-    width: 250px;
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-  }
-  .menu-item {
-    margin: 10px 0;
-    cursor: pointer;
-  }
-  .menu-subitem {
-    margin: 5px 0 0 20px;
-    cursor: pointer;
-  }
-  .accordion-content {
-    margin-top: 10px;
-  }
-  </style>
