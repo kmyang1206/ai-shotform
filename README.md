@@ -5,6 +5,11 @@
 npm install
 ```
 
+### Dependency modules
+npm install vue-router
+npm install crypto-js
+npm install vuex
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
